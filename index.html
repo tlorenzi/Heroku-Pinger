@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pinger</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Heroku Pinger</h1>
+        <br />
+        <h4>Enter your website address, and then your site will be pinged regulary to prevent your heroku app from
+            sleeping. However, the free tier of heroku requires a minimum of 6 hours of sleep per day.
+        </h4>
+        <br>
+        <form method="POST" action="/add">
+            <input type="text" id="textInput" name="address" />
+            <input type="submit" id="button" value="Submit" />
+        </form>
+    </div>
+</body>
+
+</html>
