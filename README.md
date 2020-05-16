@@ -4,6 +4,4 @@ from "sleeping." Heroku apps that are sleeping take longer to load, and they are
 site recently. Even, when using a pinger to keep Heroku apps from sleeping, the free tier of Heroku requires apps to sleep for
 a minimum of 6 hours a day.
 
-Instruction to run localy: 
-1) npm install
-2) node server.js
+This cannot be ran localy since I removed my connection string for MongoDB.
