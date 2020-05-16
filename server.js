@@ -19,7 +19,7 @@ app.post("/add", (req, res) => {
     let address = req.body.address;
 
     const url =
-        "mongodb+srv://tyler:bakersfield@cluster0-u94vc.mongodb.net/test?retryWrites=true&w=majority";
+        "MY-Connection-String";
 
     MongoClient.connect(url, function (err, client) {
         if (err) {
